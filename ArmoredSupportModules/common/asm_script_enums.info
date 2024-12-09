@@ -1,0 +1,22 @@
+script_enum_equipment_category = {
+	signal
+}
+
+script_enum_equipment_bonus_type = {
+	signal
+	medium_tank_signal_chassis
+	medium_tank_signal_chassis_0
+	medium_tank_signal_chassis_1
+	medium_tank_signal_chassis_2
+	medium_tank_signal_chassis_3
+	light_tank_signal_chassis
+	light_tank_signal_chassis_0
+	light_tank_signal_chassis_1
+	light_tank_signal_chassis_2
+	light_tank_signal_chassis_3
+	heavy_tank_signal_chassis
+	heavy_tank_signal_chassis_0
+	heavy_tank_signal_chassis_1
+	heavy_tank_signal_chassis_2
+	heavy_tank_signal_chassis_3
+}

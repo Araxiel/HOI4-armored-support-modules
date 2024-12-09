@@ -1,0 +1,67 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_EMI_tank_command_radio_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_dozer_blade.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_tank_command"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_radio_module.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = { name = "GFX_unit_light_armored_signal_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_armored_signal_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_armored_signal_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_armored_signal_icon.dds" noOfFrames = 2}	
+	
+	spriteType = { name = "GFX_unit_heavy_armored_signal_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_armored_signal_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_armored_signal_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_armored_signal_icon.dds" noOfFrames = 2}	
+	
+	SpriteType = {
+		name = "GFX_command_texticon"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_4.dds"
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = {
+		name = "GFX_command"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/role_icons/role_icon_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_unit_light_armored_signal_icon_small_texticon"
+		texturefile = "gfx/texticons/light_flamethrower_tank_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_light_armored_signal_icon_small"
+		texturefile = "gfx/texticons/light_flamethrower_tank_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_medium_armored_signal_icon_small_texticon"
+		texturefile = "gfx/texticons/medium_flamethrower_tank_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_medium_armored_signal_icon_small"
+		texturefile = "gfx/texticons/medium_flamethrower_tank_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_heavy_armored_signal_icon_small_texticon"
+		texturefile = "gfx/texticons/heavy_flamethrower_tank_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_heavy_armored_signal_icon_small"
+		texturefile = "gfx/texticons/heavy_flamethrower_tank_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+}

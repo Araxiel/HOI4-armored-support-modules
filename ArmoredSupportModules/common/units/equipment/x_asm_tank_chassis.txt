@@ -1,0 +1,31 @@
+# In vanilla there is a file named x_tank_chassis.txt. It seems to have something to do with "duplicating" variants or something like that. I think it's for people that don't have NSB
+# Edit: I figured it out; it turns a medium tank chassis with a flamethrower "gun" into a medium_tank_flame_chassis, which is what all the modifiers of stuff is being applied to.
+
+
+duplicate_archetypes = {
+	
+	light_tank_command_chassis = {
+		archetype = light_tank_chassis
+		type = { armor command }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+		}
+	}
+	
+	medium_tank_command_chassis = {
+		archetype = medium_tank_chassis
+		type = { armor command }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+		}
+	}
+	
+	heavy_tank_command_chassis = {
+		archetype = heavy_tank_chassis
+		type = { armor command }
+		for_each = {
+			variant_name = { find_and_replace = { "chassis" "equipment" } }
+		}
+	}
+
+}

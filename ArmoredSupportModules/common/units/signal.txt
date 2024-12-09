@@ -1,0 +1,239 @@
+sub_units = {
+	signal_company = {
+		abbreviation = "SIG"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_army
+		}
+
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 500
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.02
+		can_be_parachuted = yes
+		
+		# Important Ability
+		initiative = 0.1
+		
+		own_equipment_fuel_consumption_mult = 0.0 # no fuel use
+		
+		essential = {
+			support_equipment
+			motorized_equipment
+		}
+
+		need = {
+			support_equipment = 20
+			motorized_equipment = 10
+		}
+
+		same_support_type = signal_company
+	}
+
+
+	########################
+	### SPECIAL PROJECTS ###
+	########################
+
+	# WW - SP tech - Armored Signal - Using Armored Support Vehicle -> Command Vehicles
+	light_armored_signal = {
+		abbreviation = "LAS"
+		sprite = armored_signal
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = yes
+
+		type = {
+			armor
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_tanks
+			category_all_armor
+			category_army
+		}
+
+		battalion_mult = {
+			category = category_all_armor
+			breakthrough = 0.05
+			add = yes
+		}
+
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 500
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.035 # More than M Flame Tank (0.025)
+		can_be_parachuted = yes
+		
+		# Important Ability
+		initiative = 0.12 #More than reg signal (0.1)
+				
+		essential = {
+			support_equipment
+			light_tank_command_chassis
+		}
+
+		need = {
+			support_equipment = 5
+			light_tank_command_chassis = 5
+		}
+
+		same_support_type = signal_company
+	}
+	
+	armored_signal = {
+		abbreviation = "ASC"
+		sprite = armored_signal
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = yes
+
+		type = {
+			armor
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_tanks
+			category_all_armor
+			category_army
+		}
+
+		battalion_mult = {
+			category = category_all_armor
+			breakthrough = 0.05
+			add = yes
+		}
+
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 500
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.035 # More than M Flame Tank (0.025)
+		can_be_parachuted = no
+		
+		# Important Ability
+		initiative = 0.12 #More than reg signal (0.1)
+				
+		essential = {
+			support_equipment
+			medium_tank_command_chassis
+		}
+
+		need = {
+			support_equipment = 5
+			medium_tank_command_chassis = 5
+		}
+
+		same_support_type = signal_company
+	}
+	
+	heavy_armored_signal = {
+		abbreviation = "HAS"
+		sprite = armored_signal
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = yes
+
+		type = {
+			armor
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_support_battalions
+			category_tanks
+			category_all_armor
+			category_army
+		}
+
+		battalion_mult = {
+			category = category_all_armor
+			breakthrough = 0.05
+			add = yes
+		}
+
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 1
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 500
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.035 # More than M Flame Tank (0.025)
+		can_be_parachuted = no
+		
+		# Important Ability
+		initiative = 0.12 #More than reg signal (0.1)
+				
+		essential = {
+			support_equipment
+			heavy_tank_command_chassis
+		}
+
+		need = {
+			support_equipment = 5
+			heavy_tank_command_chassis = 5
+		}
+
+		same_support_type = signal_company
+	}
+
+}

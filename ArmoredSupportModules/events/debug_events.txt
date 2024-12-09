@@ -1,0 +1,28 @@
+add_namespace = asm_debug
+
+# debug event used for creating agency & cryptology
+country_event = {
+	id = asm_debug.1
+	title = asm_debug.1.t
+	desc = asm_debug.1.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	immediate = {
+	}
+
+	option = {
+		name = excellent
+		set_technology = {
+			tech_signal_company = 1
+			sp_armored_signal_tech = 1
+			radio = 1
+			improved_radio = 1
+			advanced_radio = 1
+		}
+		
+		complete_special_project = sp:sp_land_flamethrower_tank
+	}
+}
